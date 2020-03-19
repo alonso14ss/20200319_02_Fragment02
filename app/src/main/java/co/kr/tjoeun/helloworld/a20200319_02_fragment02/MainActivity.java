@@ -5,10 +5,12 @@ import androidx.databinding.DataBindingUtil;
 
 import android.os.Bundle;
 
+import co.kr.tjoeun.helloworld.a20200319_02_fragment02.adapters.MainViewPagerAdapter;
 import co.kr.tjoeun.helloworld.a20200319_02_fragment02.databinding.ActivityMainBinding;
 
 public class MainActivity extends BaseActivity {
 
+    MainViewPagerAdapter mvpa;
     ActivityMainBinding binding = null;
 
     @Override
@@ -25,6 +27,10 @@ public class MainActivity extends BaseActivity {
     }
 
     public void setValues(){
+
+        mvpa = new MainViewPagerAdapter(getSupportFragmentManager());
+
+        binding.mainViewPager.setAdapter(mvpa);
 
     }
 }
