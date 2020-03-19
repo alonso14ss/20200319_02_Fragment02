@@ -28,6 +28,7 @@ public class RoomListFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-//        프래그먼트의 동작토드 => 리스트뷰 띄워주기
+//        프래그먼트의 동작코드 => 리스트뷰 띄워주기
+
     }
 }
