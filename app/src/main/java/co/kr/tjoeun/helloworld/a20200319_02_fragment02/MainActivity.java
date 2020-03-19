@@ -32,5 +32,7 @@ public class MainActivity extends BaseActivity {
 
         binding.mainViewPager.setAdapter(mvpa);
 
+        binding.mainTabLayout.setupWithViewPager(binding.mainViewPager);
+
     }
 }
