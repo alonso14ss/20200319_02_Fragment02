@@ -9,7 +9,13 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".MainActivity">
-        
+
+        <fragment
+            android:id="@+id/chickenStoreFlag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="co.kr.tjoeun.helloworld.a20200319_02_fragment02.fragments.ChickenStoreFragment"/>
+
         <fragment
             android:id="@+id/roomListFrag"
             android:layout_width="match_parent"
